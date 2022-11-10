@@ -1,0 +1,16 @@
+p {
+  font-family: Lato;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  margin-left: 20%;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}

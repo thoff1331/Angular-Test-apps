@@ -1,0 +1,46 @@
+/* Add application styles & imports to this file! */
+
+body {
+  background-color: #6dd5ed;
+}
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+}
+
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #e8e8e8;
+  color: #3d3d3d;
+  border-radius: 4px;
+}
+nav a:hover {
+  color: white;
+  background-color: #42545c;
+}
+nav a.active {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.todo-container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+.todo-input-add-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
